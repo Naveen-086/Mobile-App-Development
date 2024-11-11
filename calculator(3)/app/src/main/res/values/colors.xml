@@ -1,0 +1,4 @@
+<resources>
+    <color name="colorButtonNormal">#FEA3AA</color>
+    <color name="colorButtonPressed">#FFB2D0</color>
+</resources>

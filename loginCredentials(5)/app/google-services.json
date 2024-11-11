@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "600935583085",
+    "project_id": "signinandup-login-firebase",
+    "storage_bucket": "signinandup-login-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600935583085:android:690d82c6f8f2f6a8b89e64",
+        "android_client_info": {
+          "package_name": "com.example.signinandup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5V3ps7Aanp2bmoNvezfSiexwmfel5sVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
