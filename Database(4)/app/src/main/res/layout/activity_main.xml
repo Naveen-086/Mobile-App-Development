@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- Title: REC Student Details -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REC Student Details"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#19191A"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Logo or Header Image -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:contentDescription="Logo"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Student Name -->
+        <EditText
+            android:id="@+id/etStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student Name"
+            android:padding="12dp"
+            android:textColor="#333"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Roll No -->
+        <EditText
+            android:id="@+id/etRollNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Roll No"
+            android:padding="12dp"
+            android:textColor="#333"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Phone Number -->
+        <EditText
+            android:id="@+id/etPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:textColor="#333"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Department -->
+        <EditText
+            android:id="@+id/etDepartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Department"
+            android:padding="12dp"
+            android:textColor="#333"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Father Name -->
+        <EditText
+            android:id="@+id/etFatherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Father Name"
+            android:padding="12dp"
+            android:textColor="#333"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Mother Name -->
+        <EditText
+            android:id="@+id/etMotherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mother Name"
+            android:padding="12dp"
+            android:textColor="#333"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Parent Mobile Number -->
+        <EditText
+            android:id="@+id/etParentMobileNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Parent Mobile Number"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:textColor="#333"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Community -->
+        <EditText
+            android:id="@+id/etCommunity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Community"
+            android:padding="12dp"
+            android:textColor="#333"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Address -->
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:padding="12dp"
+            android:textColor="#333"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Quota -->
+        <EditText
+            android:id="@+id/etQuota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quota (Management/Merit)"
+            android:padding="12dp"
+            android:textColor="#333"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Date of Birth -->
+        <EditText
+            android:id="@+id/etDOB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date of Birth"
+            android:padding="12dp"
+            android:textColor="#333"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textSize="18sp"
+            android:textColor="#FFF"
+            android:backgroundTint="#6200EE"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp" />
+
+        <!-- View All Data Button -->
+        <Button
+            android:id="@+id/btnViewAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View All Data"
+            android:textSize="18sp"
+            android:textColor="#FFF"
+            android:backgroundTint="#03DAC5"
+            android:padding="12dp"
+            android:elevation="4dp" />
+
+    </LinearLayout>
+</ScrollView>

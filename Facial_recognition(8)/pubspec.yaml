@@ -1,0 +1,57 @@
+name: flutterface
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  image_picker: ^0.8.7+5
+  tflite_flutter: #^0.10.1
+    git:
+      url: https://github.com/tensorflow/flutter-tflite.git
+      ref: main
+  # tflite_flutter_helper: # Use this instead: https://github.com/tensorflow/flutter-tflite/tree/main/example/image_classification_mobilenet
+  #   git:
+  #     url: https://github.com/pnyompen/tflite_flutter_helper.git
+  #     ref: 43e87d4b9627539266dc20250beb35bf36320dce
+  # camera: ^0.10.5+2
+  # get_it: ^7.6.0
+  equatable: ^2.0.5
+  ml_linalg: ^13.11.31
+  simple_cluster: ^0.3.0
+  logging: ^1.2.0
+  synchronized: ^3.1.0
+  flutter_isolate: ^2.0.4
+  crypto: ^3.0.3
+  path_provider: ^2.1.1
+  # vector_math: ^2.1.4
+  # matrix2d: ^1.0.4
+  onnxruntime:
+    git:
+      url: "https://github.com/ente-io/onnxruntime.git"
+      ref: isolates
+  computer:
+    git: "https://github.com/ente-io/computer.git"
+  image: ^4.1.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  test: ^1.24.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/models/
+    - assets/images/stock_images/
